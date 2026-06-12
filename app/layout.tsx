@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   description:
     "Email Marketing Expert and Klaviyo Specialist helping eCommerce brands increase retention, customer lifetime value, and repeat revenue through automated email marketing systems.",
 
+    verification: {
+  google: "5T0ZJhjOQjbmWIhZDVBv8mW6_ZhB_kft8Ep4ZBnhpuk",
+},
   keywords: [
     "Sufyan Ali",
     "Email Marketing Expert",
