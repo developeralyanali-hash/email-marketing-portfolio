@@ -18,41 +18,64 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sufyanaliportfolio.vercel.app"),
+
   title: {
-    default: "Email Marketing That Increases Repeat Revenue for eCommerce Brands",
+    default: "Sufyan Ali | Email Marketing Expert & Klaviyo Specialist",
     template: "%s | Sufyan Ali",
   },
 
   description:
-    "I help eCommerce brands increase repeat revenue using Klaviyo & Brevo email automation, high-converting flows, and lifecycle retention systems.",
+    "Email Marketing Expert and Klaviyo Specialist helping eCommerce brands increase retention, customer lifetime value, and repeat revenue through automated email marketing systems.",
 
   keywords: [
-    "Email Marketing",
+    "Sufyan Ali",
+    "Email Marketing Expert",
     "Klaviyo Expert",
-    "Brevo Specialist",
+    "Email Marketing Specialist",
+    "Email Marketer",
+    "Email Marketing Portfolio",
+    "Klaviyo Portfolio",
     "eCommerce Email Marketing",
     "Email Automation",
     "Retention Marketing",
     "Lifecycle Marketing",
-    "Conversion Optimization",
+    "Customer Retention",
+    "Email Campaign Management",
+    "Klaviyo Automation",
+    "Brevo Specialist",
   ],
 
   authors: [{ name: "Muhammad Sufyan Ali" }],
-  creator: "Sufyan Ali - Email Marketing Specialist",
+  creator: "Muhammad Sufyan Ali",
 
   openGraph: {
-    title: "Email Marketing That Drives Repeat Revenue for eCommerce Brands",
+    title: "Sufyan Ali | Email Marketing Expert & Klaviyo Specialist",
     description:
-      "High-converting Klaviyo & Brevo automation systems designed to increase retention, LTV, and repeat purchases for eCommerce businesses.",
-    type: "website",
+      "Portfolio of Muhammad Sufyan Ali showcasing Klaviyo email automation, retention marketing systems, lifecycle campaigns, and eCommerce revenue growth strategies.",
+    url: "https://sufyanaliportfolio.vercel.app",
+    siteName: "Sufyan Ali Portfolio",
     locale: "en_US",
+    type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Email Marketing That Increases eCommerce Revenue",
+    title: "Sufyan Ali | Email Marketing Expert",
     description:
-      "Klaviyo & Brevo expert helping eCommerce brands increase retention & lifetime value.",
+      "Klaviyo Specialist helping eCommerce brands increase retention, customer lifetime value, and repeat revenue.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
