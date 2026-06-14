@@ -6,13 +6,15 @@ import { Menu, X, MessageCircle } from "lucide-react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const [active, setActive] = useState("work");
+  const [active, setActive] = useState("home");
   const [scrolled, setScrolled] = useState(false);
   const headerRef = useRef<HTMLElement>(null);
 
+  // 🔥 SEO-ALIGNED NAV STRUCTURE
   const navItems = [
-    { id: "work", label: "Work" },
-    { id: "results", label: "Results" }, // lowercase kar diya
+    { id: "home", label: "Home" },
+    { id: "services", label: "Services" },
+    { id: "results", label: "Case Studies" },
     { id: "process", label: "Process" },
   ];
 
@@ -24,21 +26,21 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
- const scrollToSection = (id: string) => {
-  setOpen(false);
+  const scrollToSection = (id: string) => {
+    setOpen(false);
 
-  setTimeout(() => {
-    const el = document.getElementById(id);
-    if (!el) return;
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (!el) return;
 
-    el.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+      el.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
 
-    setActive(id);
-  }, 50);
-};
+      setActive(id);
+    }, 50);
+  };
 
   return (
     <motion.header
@@ -53,11 +55,12 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-8">
+
         {/* BRAND */}
         <div className="text-white font-semibold text-base sm:text-lg">
           Muhammad Sufyan Ali
           <span className="text-emerald-400 text-xs sm:text-sm ml-2 hidden sm:inline">
-            Email Marketer & Designer
+            Klaviyo Email Marketing Specialist
           </span>
         </div>
 
@@ -78,6 +81,7 @@ export default function Navbar() {
               }`}
             >
               {item.label}
+
               {active === item.id && (
                 <motion.div
                   layoutId="nav-underline"
@@ -133,6 +137,7 @@ export default function Navbar() {
                   {item.label}
                 </button>
               ))}
+
               <a
                 href="https://calendly.com/muhammadsufyanali/free-15-minute-klaviyo-discovery-call"
                 target="_blank"
@@ -140,6 +145,7 @@ export default function Navbar() {
               >
                 Book Free Audit Call
               </a>
+
               <a
                 href="https://wa.me/923349489073"
                 target="_blank"

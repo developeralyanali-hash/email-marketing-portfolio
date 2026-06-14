@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function FinalCTA() {
   return (
-    <section className="relative py-20 sm:py-28 bg-zinc-950 overflow-hidden">
+    <section id="contact" className="relative py-20 sm:py-28 bg-zinc-950 overflow-hidden">
       
       {/* subtle background glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.08),transparent_60%)]" />

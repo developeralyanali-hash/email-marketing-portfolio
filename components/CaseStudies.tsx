@@ -22,7 +22,7 @@ export default function CaseStudies() {
   };
 
   return (
-   <section id="results"  className="py-16 sm:py-20 bg-zinc-950">
+    <section id="results" className="py-16 sm:py-20 bg-zinc-950">
       <div className="container mx-auto px-4">
 
         {/* HEADER */}
@@ -43,7 +43,7 @@ export default function CaseStudies() {
           </h2>
 
           <p className="mt-4 text-zinc-400 text-base sm:text-lg">
-            Practical email system breakdowns based on ecommerce behavior, conversion psychology, and lifecycle revenue systems.
+            Practical Klaviyo email marketing system breakdowns based on ecommerce behavior, conversion psychology, customer lifecycle automation, and retention-focused revenue systems.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export default function CaseStudies() {
             <div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-emerald-500 to-transparent opacity-70" />
 
             <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-emerald-300 transition-colors">
-              Abandoned Cart Recovery System
+              Abandoned Cart Recovery System (Klaviyo Flow)
             </h3>
 
             <div className="mt-4 space-y-3">
@@ -68,7 +68,7 @@ export default function CaseStudies() {
                   <AlertTriangle className="w-4 h-4 text-amber-500" />
                   Problem:
                 </span>
-                Ecommerce stores lose high-intent buyers at checkout without structured follow-up systems.
+                Ecommerce stores lose high-intent buyers at checkout without structured Klaviyo abandoned cart email automation.
               </p>
 
               <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
@@ -76,12 +76,12 @@ export default function CaseStudies() {
                   <Target className="w-4 h-4 text-blue-400" />
                   Strategy:
                 </span>
-                3-step automated flow using urgency, reminders, and objection-handling psychology.
+                3-step Klaviyo abandoned cart flow using urgency triggers, reminder emails, and objection-handling psychology to recover lost revenue.
               </p>
 
               <p className="text-xs sm:text-sm text-emerald-400 font-medium">
                 <TrendingUp className="inline w-4 h-4 mr-1" />
-                Outcome: Increased recovered revenue potential through behavioral triggers.
+                Outcome: Demonstrates how Klaviyo automation can improve checkout recovery and increase revenue from existing traffic.
               </p>
 
             </div>
@@ -95,7 +95,7 @@ export default function CaseStudies() {
             <div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-emerald-500 to-transparent opacity-70" />
 
             <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-emerald-300 transition-colors">
-              Welcome Flow Conversion System
+              Welcome Flow Conversion System (Klaviyo Automation)
             </h3>
 
             <div className="mt-4 space-y-3">
@@ -105,7 +105,7 @@ export default function CaseStudies() {
                   <AlertTriangle className="w-4 h-4 text-amber-500" />
                   Problem:
                 </span>
-                New subscribers don’t convert due to lack of structured onboarding.
+                New subscribers don’t convert due to lack of structured Klaviyo onboarding automation.
               </p>
 
               <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
@@ -113,12 +113,12 @@ export default function CaseStudies() {
                   <Target className="w-4 h-4 text-blue-400" />
                   Strategy:
                 </span>
-                Multi-email journey combining storytelling, trust-building, and product positioning.
+                Multi-email Klaviyo welcome flow combining storytelling, trust-building, segmentation, and product positioning.
               </p>
 
               <p className="text-xs sm:text-sm text-emerald-400 font-medium">
                 <TrendingUp className="inline w-4 h-4 mr-1" />
-                Outcome: Higher first-purchase probability via structured engagement.
+                Outcome: Demonstrates how structured email onboarding increases first purchase intent and engagement.
               </p>
 
             </div>
@@ -132,7 +132,7 @@ export default function CaseStudies() {
             <div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-emerald-500 to-transparent opacity-70" />
 
             <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-emerald-300 transition-colors">
-              Customer Winback & Reactivation System
+              Customer Winback & Reactivation System (Klaviyo Lifecycle Flow)
             </h3>
 
             <div className="mt-4 space-y-3">
@@ -142,7 +142,7 @@ export default function CaseStudies() {
                   <AlertTriangle className="w-4 h-4 text-amber-500" />
                   Problem:
                 </span>
-                Large inactive customer base with no reactivation system.
+                Large inactive customer base with no structured Klaviyo winback or reactivation automation.
               </p>
 
               <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
@@ -150,12 +150,12 @@ export default function CaseStudies() {
                   <Target className="w-4 h-4 text-blue-400" />
                   Strategy:
                 </span>
-                Segmented lifecycle campaigns using personalization + behavioral triggers.
+                Segmented Klaviyo lifecycle campaigns using personalization, behavioral triggers, and automated re-engagement flows.
               </p>
 
               <p className="text-xs sm:text-sm text-emerald-400 font-medium">
                 <TrendingUp className="inline w-4 h-4 mr-1" />
-                Outcome: Improved re-engagement and repeat purchase potential.
+                Outcome: Demonstrates how email lifecycle automation improves retention and repeat purchase behavior.
               </p>
 
             </div>
@@ -166,7 +166,7 @@ export default function CaseStudies() {
         {/* CTA */}
         <div className="text-center mt-12 sm:mt-14">
           <p className="text-zinc-500 mb-4 text-sm sm:text-base">
-            Every ecommerce brand has hidden revenue leaks. I'll review your current email setup and show where automation, retention, and customer journeys can be improved.
+            Every ecommerce brand has hidden revenue leaks. I'll review your current Klaviyo setup and show where email automation, retention flows, and customer lifecycle systems can be improved.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

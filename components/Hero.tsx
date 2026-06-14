@@ -17,6 +17,7 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden py-20 lg:py-32 bg-zinc-950">
+
       <style jsx>{`
         @keyframes shimmer {
           0% {
@@ -53,48 +54,51 @@ export default function Hero() {
               },
             }}
           >
-            {/* HEADLINE */}
+
+            {/* MAIN SEO CONTEXT LINE (HIDDEN AUTHORITY SIGNAL FOR GOOGLE, NOT UI HEADING CHANGE) */}
+            <h1 className="sr-only">
+              Klaviyo Email Marketing Expert for eCommerce Brands
+            </h1>
+
+            {/* HEADLINE (UNCHANGED VISUALLY) */}
             <motion.h1
               variants={fadeUp}
               className="font-bold leading-tight tracking-tight text-white"
             >
               <span className="block text-4xl sm:text-5xl lg:text-7xl bg-gradient-to-r from-emerald-400 via-emerald-300 to-emerald-400 bg-clip-text text-transparent shimmer-text">
-  Stop Losing Revenue
-</span>
+                Stop Losing Revenue
+              </span>
 
-<span className="block text-3xl sm:text-4xl lg:text-6xl mt-2">
-  After Customers Leave Your Store
-</span>
+              <span className="block text-3xl sm:text-4xl lg:text-6xl mt-2">
+                After Customers Leave Your Store
+              </span>
 
               <span className="block text-lg sm:text-xl text-zinc-300 mt-6">
-                  Recovery Flows • Retention Systems • Customer Lifecycle Automation
+                Recovery Flows • Retention Systems • Customer Lifecycle Automation (Klaviyo & Email Marketing)
               </span>
             </motion.h1>
 
-            {/* SUBTEXT (problem framing improved) */}
-<motion.p
-  variants={fadeUp}
-  className="mt-6 text-zinc-300 max-w-xl mx-auto lg:mx-0"
->
-  You already paid for the traffic.
-  <br />
-  <br />
-  But visitors leave, carts get abandoned, customers buy once and never return,
-  and revenue quietly slips away every day.
-  <br />
-  <br />
-  I build automated email systems that recover lost sales, increase repeat
-  purchases, and turn email into a predictable revenue channel for your
-  ecommerce business.
-</motion.p>
+            {/* SUBTEXT */}
+            <motion.p
+              variants={fadeUp}
+              className="mt-6 text-zinc-300 max-w-xl mx-auto lg:mx-0"
+            >
+              You already paid for the traffic.
+              <br />
+              <br />
+              But visitors leave, carts get abandoned, customers buy once and never return,
+              and revenue quietly slips away every day.
+              <br />
+              <br />
+              I build automated Klaviyo email marketing systems that recover lost sales, increase repeat purchases,
+              and turn email into a predictable revenue channel for your ecommerce business.
+            </motion.p>
 
             {/* CTA */}
             <motion.div variants={fadeUp} className="mt-8">
 
-              {/* MOBILE-FIRST CTA STRUCTURE */}
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
 
-                {/* PRIMARY CTA */}
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
@@ -109,7 +113,6 @@ export default function Hero() {
                   Get Free Email Revenue Audit
                 </motion.button>
 
-                {/* SECONDARY CTA */}
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
@@ -123,19 +126,27 @@ export default function Hero() {
 
               </div>
 
-              {/* MICRO-PSYCHOLOGY LINE */}
               <p className="mt-4 text-sm text-zinc-400 text-center lg:text-left">
                 Get actionable improvements you can implement immediately.
               </p>
             </motion.div>
 
-            {/* TRUST REDUCTION BARRIER */}
             <motion.p
               variants={fadeUp}
               className="text-sm text-zinc-500 mt-6"
             >
               You'll leave with a clear understanding of where revenue is leaking from your customer journey — whether we work together or not.
             </motion.p>
+
+            {/* SEO SUPPORT BLOCK (CLIENT-FACING, NOT HIDDEN) */}
+            <motion.p
+              variants={fadeUp}
+              className="mt-6 text-zinc-400 text-sm max-w-xl mx-auto lg:mx-0"
+            >
+              Klaviyo Email Marketing Specialist focused on abandoned cart flows, welcome sequences, winback automation,
+              and lifecycle revenue systems for eCommerce brands.
+            </motion.p>
+
           </motion.div>
 
           {/* RIGHT VISUAL */}

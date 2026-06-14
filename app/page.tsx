@@ -3,6 +3,7 @@ import TrustStrip from "@/components/TrustStrip";
 import ProblemAmplification from "@/components/ProblemAmplification";
 import EmailShowcase from "@/components/EmailShowcase";
 import CaseStudies from "@/components/CaseStudies";
+import KlaviyoServices from "@/components/KlaviyoServices";
 import Process from "@/components/Process";
 
 
@@ -29,7 +30,8 @@ export default function Home() {
       {/* DEEP PROOF */}
       <CaseStudies />
 
-
+      {/* KLAVIYO SERVICES */}
+      <KlaviyoServices />
 
       {/* PROCESS - HOW IT WORKS */}
       <Process />
