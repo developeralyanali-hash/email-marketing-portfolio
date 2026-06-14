@@ -16,7 +16,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden py-20 lg:py-32 bg-zinc-950">
+    <section id="home" className="relative overflow-hidden py-20 lg:py-32 bg-zinc-950">
 
       <style jsx>{`
         @keyframes shimmer {

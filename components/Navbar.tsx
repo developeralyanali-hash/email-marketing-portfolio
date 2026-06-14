@@ -27,20 +27,23 @@ export default function Navbar() {
   }, []);
 
   const scrollToSection = (id: string) => {
-    setOpen(false);
+  setOpen(false);
 
-    setTimeout(() => {
-      const el = document.getElementById(id);
-      if (!el) return;
+  setTimeout(() => {
+    const el = document.getElementById(id);
+    if (!el) return;
 
-      el.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
+    const yOffset = -80; // fixes fixed navbar overlap
+    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
-      setActive(id);
-    }, 50);
-  };
+    window.scrollTo({
+      top: y,
+      behavior: "smooth",
+    });
+
+    setActive(id);
+  }, 50);
+};
 
   return (
     <motion.header
