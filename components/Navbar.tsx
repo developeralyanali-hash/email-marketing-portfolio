@@ -26,18 +26,20 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (id: string) => {
+ const scrollToSection = (id: string) => {
   setOpen(false);
 
   setTimeout(() => {
     const el = document.getElementById(id);
     if (!el) return;
 
-    const yOffset = -80; // fixes fixed navbar overlap
-    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    const top =
+      id === "home"
+        ? 0
+        : el.getBoundingClientRect().top + window.pageYOffset - 80;
 
     window.scrollTo({
-      top: y,
+      top,
       behavior: "smooth",
     });
 
