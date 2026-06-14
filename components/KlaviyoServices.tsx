@@ -5,7 +5,7 @@ import { Mail, Zap, BarChart3, Users } from "lucide-react";
 
 export default function KlaviyoServices() {
   return (
-    <section className="py-16 sm:py-20 bg-zinc-950">
+    <section id="services" className="py-16 sm:py-20 bg-zinc-950">
       <div className="container mx-auto px-4">
 
         {/* HEADER */}
